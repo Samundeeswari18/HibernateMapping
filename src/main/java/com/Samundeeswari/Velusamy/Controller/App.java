@@ -2,8 +2,8 @@ package com.Samundeeswari.Velusamy.Controller;
 
 
 import com.Samundeeswari.Velusamy.Model.Cohort;
-import com.Samundeeswari.Velusamy.Model.Department;
-import com.Samundeeswari.Velusamy.Model.Address;
+//import com.Samundeeswari.Velusamy.Model.Department;
+//import com.Samundeeswari.Velusamy.Model.Address;
 import com.Samundeeswari.Velusamy.Model.Teacher;
 import com.Samundeeswari.Velusamy.Controller.*;
 import org.hibernate.Session;

@@ -21,8 +21,8 @@
 
 <!--        &lt;!&ndash;   Mapping entity file →-->
         <mapping class="com.Samundeeswari.Velusamy.Model.Teacher"/>
-        <mapping class="com.Samundeeswari.Velusamy.Model.Department"/>
-        <mapping class="com.Samundeeswari.Velusamy.Model.Address"/>
+<!--        <mapping class="com.Samundeeswari.Velusamy.Model.Department"/>-->
+<!--        <mapping class="com.Samundeeswari.Velusamy.Model.Address"/>-->
         <mapping class="com.Samundeeswari.Velusamy.Model.Cohort"/>
     </session-factory>
  </hibernate-configuration>

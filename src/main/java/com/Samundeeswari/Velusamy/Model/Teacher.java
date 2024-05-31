@@ -20,6 +20,7 @@ public class Teacher implements Serializable {
     // private Address address;
 
     @ManyToMany(targetEntity = Cohort.class)
+
     private Set<Cohort> cohort;
 
     public Set<Cohort> getCohort() {
@@ -41,6 +42,7 @@ public class Teacher implements Serializable {
     public Teacher(String salary, String teacherName, Set<Cohort> cohort) {
         this.salary = salary;
         this.teacherName = teacherName;
+        this.cohort = cohort;
     }
 
     public Teacher(String salary, String teacherName) {
@@ -49,10 +51,7 @@ public class Teacher implements Serializable {
         this.teacherName = teacherName;    }
     public Teacher() {}
 
-    public Teacher(String salary, String teacherName, Department department) {
-        this.salary = salary;
-        this.teacherName = teacherName;
-    }
+
 
 
 
